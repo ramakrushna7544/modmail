@@ -93,7 +93,7 @@ class ModmailBot(commands.Bot):
         if os.name != "nt":
             logger.info("┌┬┐┌─┐┌┬┐┌┬┐┌─┐┬┬")
             logger.info("││││ │ │││││├─┤││")
-            logger.info("┴ ┴└─┘─┴┘┴ ┴┴ ┴┴┴─┘")
+            logger.info("┴ ┴└─┘─┴┘┴ ┴┴ ┴┴┴─┘.")
         else:
             logger.info("MODMAIL")
         logger.info("v%s", __version__)
